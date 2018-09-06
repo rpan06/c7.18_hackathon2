@@ -1,0 +1,57 @@
+html, body {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+@media only screen and (min-width : 992px) {
+	.tab-content {
+		padding-top: 30%;
+	}
+	
+	.panel-heading {
+		position: fixed;
+		width: 100%;
+	}
+}
+
+#map_outer
+{
+	height: 100vh;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+#panel_outer
+{
+	height: 100vh;
+	margin: 0;
+	padding: 0;
+	overflow: scroll;
+}
+
+#map, .panel-body
+{
+	height: 100%;
+}
+
+#tab2default div:nth-child(even){
+	border-bottom: 1px solid black;
+}
+
+#tab1default div {
+	border-bottom:1px solid black;
+}
+
+.tweetName {
+	color: rgb(84, 175, 66);
+}
+
+.tweets {
+	color: rgb(206, 127, 37);
+}
+.newslist {
+    color: darkblue;
+}
+
